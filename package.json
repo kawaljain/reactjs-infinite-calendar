@@ -1,0 +1,63 @@
+{
+  "name": "reactjs-infinite-calendar",
+  "version": "1.0.0",
+  "description": "React js Infinite scrolling date-picker, with multiple select, single select, inifinte scrolling, min and max date, and more.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lib": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kawal_npm_packages/reactjs-infinite-calendar.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-date-component",
+    "infinite",
+    "calendar",
+    "inifinte",
+    "scroll",
+    "calendar",
+    "date",
+    "picker",
+    "calendar",
+    "infinity",
+    "calendar"
+  ],
+  "author": "Kawal Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/kawal_npm_packages/reactjs-infinite-calendar/issues"
+  },
+  "homepage": "https://bitbucket.org/kawal_npm_packages/reactjs-infinite-calendar#readme",
+  "dependencies":{
+    "moment": "^2.29.4",
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.0.1",
+    "babel-loader": "^8.2.5",
+    "moment": "^2.29.4",
+    "postcss": "^8.4.16",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "moment": "^2.29.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
