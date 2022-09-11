@@ -1,6 +1,6 @@
 {
   "name": "reactjs-infinite-calendar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React js Infinite scrolling date-picker, with multiple select, single select, inifinte scrolling, min and max date, and more.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/kawal_npm_packages/reactjs-infinite-calendar.git"
+    "url": "https://github.com/kawaljain/reactjs-infinite-calendar.git"
   },
   "keywords": [
     "react",
@@ -30,9 +30,9 @@
   "author": "Kawal Jain",
   "license": "MIT",
   "bugs": {
-    "url": "https://bitbucket.org/kawal_npm_packages/reactjs-infinite-calendar/issues"
+    "url": "https://github.com/kawaljain/reactjs-infinite-calendar/issues"
   },
-  "homepage": "https://bitbucket.org/kawal_npm_packages/reactjs-infinite-calendar#readme",
+  "homepage": "https://github.com/kawaljain/reactjs-infinite-calendar#readme",
   "dependencies":{
     "moment": "^2.29.4",
     "prop-types": "^15.8.1"
