@@ -6,8 +6,6 @@ ReactJs Infinite Calendar is a library for generating Infinite scroll with singl
 
 ## Features
 
----
-
 - **Infinite scroll** – Just keep scrollin', just keep scrollin'
 - **Flexible** – Min/max date, disabled dates, selected dates, etc.
 - **Extensible** – Multiple date selection, Single Date Selection
@@ -56,11 +54,9 @@ import InfinitCalendar from "reactjs-infinite-calendar";
 
 ## Prop Types
 
----
-
 | Property                     | Type     | Default | Description                                                                                                              |
 | :--------------------------- | :------- | :------ | :----------------------------------------------------------------------------------------------------------------------- |
-| calendarWidth                | Number   | `400`   | Width of the calendar, in pixels                                                                                         |
+| calendarWidth                | Number   | `450`   | Width of the calendar, in pixels                                                                                         |
 | calendarHeight               | Number   | `600`   | Height of the calendar, in pixels                                                                                        |
 | renderMinDate                | Date     |         | The minimum month that can be scrolled to, If inifinite scroll is true, then its disabled all dates before renderMinDate |
 | renderMaxDate                | Date     |         | The maximum date that can be scrolled to, If inifinite scroll is true, then its disabled all dates after renderMaxDate   |
@@ -76,13 +72,9 @@ import InfinitCalendar from "reactjs-infinite-calendar";
 
 ## Reporting Issues
 
----
-
 If you find an [issue](https://github.com/kawaljain/reactjs-infinite-calendar/issues), please report it along with any relevant details to reproduce it. Its is a great help to improving the packages
 
 ## Future Release
-
----
 
 - **Date Range Selection**
 - **Horizontal Scroll**
@@ -90,18 +82,12 @@ If you find an [issue](https://github.com/kawaljain/reactjs-infinite-calendar/is
 
 ## Dependencies
 
----
-
 React Infinite Calendar has very few dependencies. It relies on [`moment.js`](https://www.npmjs.com/package/moment),[`prop-types`](https://www.npmjs.com/package/prop-types). It also has the following peerDependencies: [`react`](https://www.npmjs.com/package/react).
 
 ## Author
 
----
-
 [**Kawal Jain**]
 
 ## License
-
----
 
 _reactjs-infinite-calendar_ is available under the [MIT](https://choosealicense.com/licenses/mit/) License.
